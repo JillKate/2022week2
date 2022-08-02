@@ -1,0 +1,195 @@
+*,
+*::before,
+*:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.mb-3 {
+    margin-bottom: 24px;
+}
+
+.mb-4 {
+    margin-bottom: 32px;
+}
+
+.mb-5 {
+    margin-bottom: 40px;
+}
+
+.mb-6 {
+    margin-bottom: 48px;
+}
+
+.mb-7 {
+    margin-bottom: 56px;
+}
+
+.h1 {
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: 900;
+}
+
+.h2 {
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.line-height-second {
+    line-height: 42px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* header 開始 */
+.banner {
+    height: 100vh;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.social-media-link {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* header 結束 */
+
+/* about 區塊開始 */
+.about img {
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    margin-bottom: 4px;
+}
+
+.about li:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.about ul {
+    /* Box Model */
+    max-width: 384px;
+    padding-top: 28px;
+    border-top: 1px solid #000;
+}
+
+.dot-group::before {
+    content: '';
+    /* Box Model */
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 16px;
+    /* Font or other */
+    background-color: #891818;
+}
+
+/* about 區塊結束 */
+
+/* brand 區塊開始 */
+.brand {
+    /* Box Model */
+    padding-top: 56px;
+    padding-bottom: 160px;
+    /* Font or other */
+    background-color: #000;
+}
+
+.brand h2 {
+    margin-bottom: 12px;
+}
+
+.brand-cotent {
+    margin-bottom: 68px;
+    font-size: 20px;
+}
+
+/* brand 區塊結束 */
+
+/* other work 區塊開始 */
+.other-works {
+    padding-bottom: 144px;
+}
+
+.other-works p {
+    font-size: 20px;
+}
+
+/* other work 區塊結束 */
+
+/* footer 開始 */
+footer {
+    /* Box Model */
+    padding-top: 64px;
+    padding-bottom: 64px;
+    /* Font or other */
+    background-color: #000;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* footer 結束 */
